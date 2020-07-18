@@ -9,13 +9,13 @@
 </head>
 <body class="container" >
     <div class="main" style="margin-top: 15px; font-size: 20px;">
-        <button class="btn btn-primary cnt" value="1">1</button>
-        <button class="btn btn-secondary cnt" value="2">2</button>
+        <button class="btn btn-danger cnt" value="1">1</button>
+        <button class="btn btn-primary cnt" value="2">2</button>
     </div>
 
     <script>
         var sum=0, flag=0, num=2;
-        var colors = ["primary", "secondary", "success", "danger", "warning", "info", "dark"];
+        var colors = ["danger", "primary", "secondary", "success", "warning", "info", "dark"];
         $(function(){
             $(document).on("click", ".cnt", function(){
                 var val = $(this).val();
